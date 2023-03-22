@@ -2,6 +2,18 @@
     box-sizing: border-box;
   }
   
+  #game{
+    position: fixed;
+    background: red;
+    height: 100vh;
+    width: 80%;
+    overflow : scroll;
+  }
+  .game2{
+    background: pink;
+    height: 500vh;
+  }
+  
   :root {
     --hue: 200;
     --saturation: 50%;
@@ -13,19 +25,7 @@
     margin: 0;
     background-color: var(--background-color);
     overflow: hidden;
-  }
-  
-  #scroller{
-	  position: absolute;
-	  height: 100vh;
-	  width:100%;
-	  overflow: scroll;
-	  background: lightgreen;
-  }
-  #childScroller{
-	  height: 500vh;
-	  width: 100%;
-	  background: red;
+    height : 500vh;
   }
   
   .paddle {
