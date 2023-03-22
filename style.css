@@ -4,14 +4,14 @@
   
   #game{
     position: fixed;
-    background: red;
     height: 100vh;
     width: 80%;
+	color: transparent;
     overflow : scroll;
   }
   .game2{
-    background: pink;
     height: 500vh;
+	color: transparent;
   }
   
   :root {
