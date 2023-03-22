@@ -17,8 +17,13 @@
   
   #scroller{
 	  position: absolute;
-	  height: 500vh;
+	  height: 100vh;
 	  background: lightgreen;
+  }
+  #childScroller{
+	  height: 500vh;
+	  width: 100%;
+	  background: red;
   }
   
   .paddle {
